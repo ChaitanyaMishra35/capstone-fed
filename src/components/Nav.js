@@ -3,7 +3,11 @@ export default function navbar(){
     return (
         <nav>
             <img className="nav--logo" src="" />
-            < h1>heading form Nav</h1>
+            <ul>
+                <li><a href="/">Homepage</a></li>
+                <li><a href="/booking">Reserve Table</a></li>
+                    
+            </ul>
         </nav>
     )
 }
